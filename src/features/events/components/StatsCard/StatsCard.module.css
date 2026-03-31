@@ -1,0 +1,24 @@
+.stats_card_container {
+    border: 1px solid var(--text-secondary);
+    padding: 1rem 1.5rem;
+    border-radius: var(--border-radius-sm);
+    width: 100%;
+}
+.title {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+    font-family: var(--font-geist-mono);
+}
+.active_title {
+    color: var(--color-blue) !important;
+}
+.completed_title {
+    color: var(--color-success) !important;
+}
+.heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-white);
+    font-family: var(--font-geist);
+}

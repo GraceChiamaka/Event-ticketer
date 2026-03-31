@@ -1,0 +1,21 @@
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.search_input {
+    height: 2.5rem;
+    flex: 1;
+    background: transparent;
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+    outline: none;
+    caret-color: var(--color-white);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-sm);
+}

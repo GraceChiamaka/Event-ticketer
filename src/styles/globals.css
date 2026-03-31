@@ -12,12 +12,9 @@ body {
 
 body {
     min-height: 100%;
-
     color: var(--text-primary);
     background: var(--bg-primary);
     font-family: var(--font-geist);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 * {
