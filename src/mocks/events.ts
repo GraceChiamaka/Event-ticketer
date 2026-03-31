@@ -1,4 +1,4 @@
-import { Event } from "@/features/events/types";
+import { Event, EventsStats } from "@/features/events/types";
 import { getDefaultRequirements } from "./requirements";
 import { v4 as uuidv4 } from "uuid";
 
@@ -369,3 +369,13 @@ export const mockEvents: Event[] = [
         },
     },
 ];
+
+export const statsData: EventsStats = {
+    total: mockEvents.length,
+    active: 2,
+    completed: 3,
+    revenue: {
+        amount: "$95.2K",
+        summary: "+12% vs last month",
+    },
+};

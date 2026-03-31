@@ -1,0 +1,87 @@
+.container {
+    background: var(--bg-card);
+    border: 1px solid var(--text-secondary);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: var(--font-geist);
+}
+.table {
+    width: 100%;
+}
+.table_header {
+    border-bottom: 1px solid var(--text-secondary);
+}
+.table_head {
+    text-align: left;
+    font-size: 0.85rem;
+    padding: 0.8rem 1.5rem;
+    color: var(--text-secondary);
+    font-family: var(--font-geist-mono);
+}
+.table_row {
+    border-bottom: 1px solid var(--text-muted);
+    transition: all ease-in-out;
+}
+.table_row:hover {
+    background: var(--bg-card-elevated);
+}
+.td {
+    padding: 1rem 1.5rem;
+}
+.event_link {
+    transition: color ease-in-out;
+}
+.event_link:hover {
+    color: var(--color-blue);
+}
+.event_title {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+.event_icon {
+    color: var(--text-secondary);
+}
+.event_id {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-family: var(--font-geist-mono);
+}
+.event_icon_item {
+    display: flex;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    color: var(--text-white);
+    flex-wrap: wrap;
+}
+
+/* Progress bar */
+
+.progress_bar_container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.progressbar {
+    flex: 1;
+}
+.progressbar_track {
+    height: 0.75rem;
+    background: var(--text-muted);
+    border-radius: var(--border-radius-sm);
+    overflow: hidden;
+}
+.progressbar_ink {
+    height: 100%;
+    border-radius: var(--border-radius-lg);
+}
+.ink_success {
+    background: var(--color-success);
+}
+.ink_warning {
+    background: var(--color-warning);
+}
+.ink_default {
+    background: var(--color-blue);
+}

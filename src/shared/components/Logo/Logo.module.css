@@ -1,0 +1,22 @@
+.logo_container {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+.logo_icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.625rem;
+    height: 2.625rem;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #005f5a 0%, #005f5a 50%, #5f3a00 100%);
+}
+.logo {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.logo_text {
+    font-family: var(--font-rubik);
+    font-size: 1.5rem;
+}

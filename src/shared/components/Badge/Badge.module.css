@@ -1,0 +1,48 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: var(--border-radius-lg);
+    border: 1px solid;
+    font-size: 0.75rem;
+    font-family: var(--font-geist-mono);
+    font-weight: 500;
+}
+
+.live {
+    background: var(--color-error-10);
+    color: var(--color-error-40);
+    border-color: var(--color-error-20);
+}
+.ready {
+    background: var(--color-blue-10);
+    color: var(--color-blue);
+    border-color: var(--color-blue-60);
+}
+.completed {
+    background: var(--color-green-10);
+    color: var(--color-success);
+    border-color: var(--color-green-60);
+}
+.replay {
+    background: var(--color-cyan-10);
+    color: var(--color-cyan);
+    border-color: var(--color-cyan-60);
+}
+.default {
+    background: var(--color-zinc-10);
+    color: var(--color-zinc);
+    border-color: var(--color-zinc-60);
+}
+.scheduled {
+    background: var(--color-purple-10);
+    color: var(--color-purple);
+    border-color: var(--color-purple-20);
+}
+.pulse_dot {
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: var(--border-radius-full);
+    background: var(--color-error);
+}
