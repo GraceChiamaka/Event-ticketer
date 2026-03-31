@@ -1,0 +1,20 @@
+:root {
+    --bg-primary: #0a0a0a;
+    --text-primary: #ffffff;
+
+    --bg-card: #111111;
+    --bg-card-elevated: #1a1a1a;
+
+    --text-secondary: #888888;
+    --text-muted: #555555;
+    --color-success: #22c55e;
+    --color-warning: #f59e0b;
+    --color-error: #ef4444;
+    --color-blue: #3b82f6;
+    --color-live: #ef4444;
+    --border-color: #2a2a2a;
+    --border-radius-sm: 6px;
+    --border-radius-md: 12px;
+    --border-radius-lg: 16px;
+    --font-geist: var(--font-geist-sans);
+}

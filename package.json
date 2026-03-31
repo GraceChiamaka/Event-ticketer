@@ -1,0 +1,35 @@
+{
+  "name": "livdot",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/GraceChiamaka/Event-ticketer#readme",
+  "scripts": {
+    "dev": "next dev -p 5050",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "bugs": {
+    "url": "https://github.com/GraceChiamaka/Event-ticketer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GraceChiamaka/Event-ticketer.git"
+  },
+  "license": "ISC",
+  "author": "GraceChiamaka",
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "next": "16.2.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "typescript": "^5"
+  }
+}
