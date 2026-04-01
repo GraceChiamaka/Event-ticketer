@@ -1,12 +1,11 @@
 .container {
-    max-width: 70%;
-    margin: 0 auto;
     margin-top: 4rem;
     margin-bottom: 2rem;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
     justify-content: space-between;
+    padding: 0 3rem;
 }
 .search_input {
     height: 2.5rem;

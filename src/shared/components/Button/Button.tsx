@@ -4,11 +4,12 @@ import styles from "./Button.module.css";
 type ButtonProps = {
 	variant?: "default" | "secondary";
 	children?: ReactNode | string | number;
+	disabled?: boolean;
 }
-export const Button = ({ variant = "default", children }: ButtonProps) => {
+export const Button = ({ variant = "default", children, ...rest }: ButtonProps) => {
 	const stylesVariant = variant === "default" ? styles.default : styles.secondary;
 	return (
-		<button className={`${styles.button} ${stylesVariant}`}>{children}</button>
+		<button className={`${styles.button} ${stylesVariant} `} {...rest}>{children}</button>
 	);
 }
 

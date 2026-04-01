@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    gap: 1.2rem;
+    margin: 4rem auto;
+    padding: 0 3rem;
+    align-items: flex-start;
+}
+
+.details_content {
+    width: 70%;
+}

@@ -3,11 +3,9 @@
     background: var(--bg-card);
 }
 .header_container {
-    max-width: 70%;
-    padding: 1rem 0;
+    padding: 1rem 3rem;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
 }
-

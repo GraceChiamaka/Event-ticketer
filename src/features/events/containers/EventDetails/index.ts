@@ -1,2 +1,1 @@
-export * from "./EventList";
 export * from "./EventDetails";

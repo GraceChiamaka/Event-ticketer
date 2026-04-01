@@ -32,6 +32,7 @@
     --color-purple-10: rgba(173, 70, 255, 0.1);
     --color-purple-20: rgba(173, 70, 255, 0.2);
     --color-purple-100: #dab2ff;
+    --color-yellow: #ffdf20;
 
     --color-teal-100: #005f5a;
     --color-teal-200: #00786f;
@@ -49,4 +50,7 @@
 
 .text-white {
     color: var(--color-white);
+}
+.text-muted {
+    color: var(--text-muted);
 }

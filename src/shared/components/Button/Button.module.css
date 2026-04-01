@@ -20,5 +20,16 @@
     border-right: 4px solid var(--color-teal-100);
     border-bottom: 4px solid var(--color-teal-100);
 }
+.secondary {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--text-muted);
+}
+.secondary:hover {
+    background: var(--text-secondary);
+}
 .transparent {
+}
+.button:disabled {
+    cursor: not-allowed;
 }

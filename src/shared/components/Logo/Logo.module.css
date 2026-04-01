@@ -1,6 +1,11 @@
 .logo_container {
     display: flex;
     align-items: center;
+    gap: 1.5rem;
+}
+.logo_wrapper {
+    display: flex;
+    align-items: center;
     gap: 0.25rem;
 }
 .logo_icon {

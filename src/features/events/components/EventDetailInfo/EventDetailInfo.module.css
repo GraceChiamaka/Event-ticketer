@@ -1,0 +1,48 @@
+.container {
+    width: 30%;
+    border: 1px solid var(--text-muted);
+    border-radius: var(--border-radius-md);
+    padding: 1rem 1.5rem;
+}
+.icon_container {
+    width: 2rem;
+    height: 2rem;
+    border-radius: var(--border-radius-md);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--text-muted);
+    background: var(--text-muted);
+}
+.detail_row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.info_heading {
+    margin-bottom: 1.5rem;
+    color: var(--color-white);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.info_label {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-family: var(--font-geist-mono);
+}
+.info_value {
+    color: var(--color-white);
+    font-size: 0.85rem;
+    font-family: var(--font-geist);
+}
+.divider {
+    border-top: 1px solid var(--text-muted);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.stream_info {
+    margin-bottom: 1rem;
+}
+

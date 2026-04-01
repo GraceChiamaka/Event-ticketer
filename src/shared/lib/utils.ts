@@ -44,3 +44,38 @@ export const formatCompactNumber = (value: number): string => {
 
     return value.toString();
 };
+
+export const canStartStreaming = (
+    requirements: Requirement[],
+    scheduledAt: string | null,
+): { allowed: boolean; reason: string | null } => {
+    const requiredUnmet = requirements.filter(
+        (r) => r.required && r.status !== "success",
+    );
+
+    if (requiredUnmet.length > 0) {
+        return {
+            allowed: false,
+            reason: `${requiredUnmet.length} required ${requiredUnmet.length === 1 ? "requirement" : "requirements"} not met`,
+        };
+    }
+
+    if (!scheduledAt) {
+        return {
+            allowed: false,
+            reason: "Event has not been scheduled",
+        };
+    }
+
+    const now = new Date();
+    const scheduledDate = new Date(scheduledAt);
+
+    if (now < scheduledDate) {
+        return {
+            allowed: false,
+            reason: `Streaming opens at ${scheduledDate.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`,
+        };
+    }
+
+    return { allowed: true, reason: null };
+};
