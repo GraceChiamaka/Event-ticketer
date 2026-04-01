@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 const rubikMoon = Rubik_Moonrocks({
 	variable: "--font-rubik-moon",
 	subsets: ["latin"],
-	weight: ['400']
+	weight: "400"
 });
 
 export const metadata: Metadata = {

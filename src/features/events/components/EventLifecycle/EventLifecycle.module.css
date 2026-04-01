@@ -1,0 +1,18 @@
+.container {
+ 
+    border: 1px solid var(--text-muted);
+    border-radius: var(--border-radius-md);
+    padding: 1rem 1.5rem;
+}
+.radio_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.caption {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-family: var(--font-geist);
+    margin-bottom: 1.5rem;
+}

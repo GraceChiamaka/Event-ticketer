@@ -1,5 +1,9 @@
+import { EventDetailsContainer } from "@/features/events/containers";
+
 const EventDetailPage = () => {
-	return (<div>Hello detail</div>);
+	return (
+		<EventDetailsContainer />
+	);
 }
 
 export default EventDetailPage;

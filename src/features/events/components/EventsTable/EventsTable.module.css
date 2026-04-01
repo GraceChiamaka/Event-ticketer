@@ -3,9 +3,9 @@
     border: 1px solid var(--text-secondary);
     border-radius: var(--border-radius-lg);
     overflow: hidden;
-    max-width: 70%;
-    margin: 0 auto;
+    margin: 2rem 3rem;
     font-family: var(--font-geist);
+    /* padding: 0 3rem; */
 }
 .table {
     width: 100%;
