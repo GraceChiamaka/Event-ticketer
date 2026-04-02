@@ -1,10 +1,9 @@
-import { Event, EventsStats } from "@/features/events/types";
+import { Event } from "@/features/events/types";
 import { getDefaultRequirements } from "./requirements";
-import { v4 as uuidv4 } from "uuid";
 
 export const mockEvents: Event[] = [
     {
-        id: uuidv4(),
+        id: "815beac4-7e64-4f56-8ab1-237f5bd4fb7d",
         title: "TechConf 2026: Keynote Address",
         state: "ready",
         thumbnail: null,
@@ -73,7 +72,7 @@ export const mockEvents: Event[] = [
     },
 
     {
-        id: uuidv4(),
+        id: "ece26ece-934a-41cd-8177-3309abe3b4f8",
         title: "Web3 Summit: Panel Discussion",
         state: "draft",
         thumbnail: null,
@@ -97,7 +96,7 @@ export const mockEvents: Event[] = [
     },
 
     {
-        id: uuidv4(),
+        id: "0a884529-dcf9-4bb8-9f4d-8960efb38c14",
         title: "Design Systems Workshop",
         state: "scheduled",
         thumbnail: null,
@@ -165,7 +164,7 @@ export const mockEvents: Event[] = [
     },
 
     {
-        id: uuidv4(),
+        id: "f437a3c4-683b-4f1a-a17e-09f491c61979",
         title: "AI & The Future of Work",
         state: "live",
         thumbnail: null,
@@ -236,7 +235,7 @@ export const mockEvents: Event[] = [
     },
 
     {
-        id: uuidv4(),
+        id: "c8d30edb-85ea-4474-9a4d-611344b330c4",
         title: "Product Launch: Spring Collection",
         state: "completed",
         thumbnail: null,
@@ -303,7 +302,7 @@ export const mockEvents: Event[] = [
     },
 
     {
-        id: uuidv4(),
+        id: "6dc70af0-eefa-400e-a339-722a686e6250",
         title: "Startup Founders Roundtable",
         state: "replay",
         thumbnail: null,
@@ -369,13 +368,3 @@ export const mockEvents: Event[] = [
         },
     },
 ];
-
-export const statsData: EventsStats = {
-    total: mockEvents.length,
-    active: 2,
-    completed: 3,
-    revenue: {
-        amount: "$95.2K",
-        summary: "+12% vs last month",
-    },
-};

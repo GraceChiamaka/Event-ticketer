@@ -24,6 +24,7 @@
 	  "@styles/*":["./src/styles/*"],
 	  "@features/*":["./src/features/*"],
 	  "@shared/*":["./src/shared/*"],
+	  "@store/*":["./src/store/*"],
     }
   },
   "include": [
