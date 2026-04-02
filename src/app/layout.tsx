@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Rubik_Moonrocks } from "next/font/google";
+
 import "@styles/globals.css";
 
 const geistSans = Geist({
@@ -17,6 +18,7 @@ const rubikMoon = Rubik_Moonrocks({
 	weight: "400"
 });
 
+
 export const metadata: Metadata = {
 	title: "LivDot Event App",
 	description: "Best moder event streaming app you can find",
@@ -29,7 +31,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${rubikMoon.variable}`}>
-			<body>{children}</body>
+			<body>
+				{children}
+			</body>
 		</html>
 	);
 }
+

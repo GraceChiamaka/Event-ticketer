@@ -56,8 +56,5 @@ export interface EventsStats {
     total: number;
     active: number;
     completed: number;
-    revenue: {
-        amount: number | string;
-        summary: string;
-    };
+    revenue: number;
 }

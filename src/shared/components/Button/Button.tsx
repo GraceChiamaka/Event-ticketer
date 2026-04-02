@@ -5,6 +5,7 @@ type ButtonProps = {
 	variant?: "default" | "secondary";
 	children?: ReactNode | string | number;
 	disabled?: boolean;
+	onClick?: (ev?: React.MouseEvent<HTMLButtonElement>) => void;
 }
 export const Button = ({ variant = "default", children, ...rest }: ButtonProps) => {
 	const stylesVariant = variant === "default" ? styles.default : styles.secondary;

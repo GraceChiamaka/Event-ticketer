@@ -19,12 +19,13 @@
   "license": "ISC",
   "author": "GraceChiamaka",
   "dependencies": {
+    "@floating-ui/react": "^0.27.19",
     "@phosphor-icons/react": "^2.1.10",
-    "@popperjs/core": "^2.11.8",
+    "@reduxjs/toolkit": "^2.11.2",
     "next": "16.2.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "react-popper": "^2.3.0",
+    "react-redux": "^9.2.0",
     "uuid": "^13.0.0"
   },
   "devDependencies": {
