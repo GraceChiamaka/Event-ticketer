@@ -82,7 +82,7 @@ src/
 - **API Data Fetching**: RTK Query (built into Redux Toolkit)
 - **Styling**: CSS Modules
 - **Icons**: Phosphor Icons (@phosphor-icons/react 2.1.10)
-- **UI Utilities**: Popperjs, React Popper
+- **UI Utilities**: Floating UI
 - **TypeScript**: 5.x
 - **Development**: ES2017 target with strict mode enabled
 
@@ -126,8 +126,9 @@ Each mock event includes realistic details about streaming requirements, ticket 
 - `GET /api/events` - Get all events
 - `GET /api/events/[id]` - Get single event by ID
 
+### Todos
 
-## Build & Deployment
+- Handle update on event details to reflect update to requirement status
 
 ### Build for Production
 

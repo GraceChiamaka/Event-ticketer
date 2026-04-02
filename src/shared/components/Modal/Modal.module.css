@@ -1,0 +1,19 @@
+.modal_overlay {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-overlay);
+    z-index: 50;
+    backdrop-filter: blur(1px);
+    width: 100%;
+}
+.modal_content {
+    position: relative;
+    width: 100%;
+    max-width: 768px;
+    border-radius: var(--border-radius-lg);
+    background-color: var(--bg-primary);
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px var(--color-zinc-10);
+}
